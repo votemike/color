@@ -1,0 +1,33 @@
+{
+  "name": "votemike/color",
+  "description": "CSS color object",
+  "keywords": [
+    "CSS",
+    "Color",
+    "Colour",
+    "Hex",
+    "RGB",
+    "RGBA"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Michael Gwynne",
+      "email": "michael@votemike.co.uk"
+    }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "^6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Votemike\\Color\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Votemike\\Color\\Test\\": "tests"
+    }
+  },
+  "prefer-stable": true
+}
