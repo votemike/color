@@ -1,5 +1,7 @@
 ## Color/Colour
 
+[![Build Status](https://travis-ci.org/votemike/color.svg?branch=master)](https://travis-ci.org/votemike/color)
+
 Immutable object representing a CSS color with the abilty to format as hex, rgba and X11 strings.
 
 ## Usage
