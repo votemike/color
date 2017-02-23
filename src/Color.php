@@ -106,7 +106,7 @@ class Color
 
     private static function grabColorNameInfo(): stdClass
     {
-        return json_decode(file_get_contents('src/colors.json'));
+        return json_decode(file_get_contents(__DIR__ . '/colors.json'));
     }
 
     private static function parseHslColor(float $color, float $temp1, float $temp2): int
